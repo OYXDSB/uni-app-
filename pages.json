@@ -1,0 +1,65 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/IPTV/index",
+			"style": {
+				"navigationBarTitleText": "IPTV"
+			}
+		},
+		{
+			"path": "pages/TV/TV",
+			"style": {
+				"navigationBarTitleText": "Tv"
+			}
+		},
+		{
+			"path": "pages/movie/movie",
+			"style": {
+				"navigationBarTitleText": "Movie"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "My"
+			}
+		}
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "罗蛳粉的图书商店",
+		"navigationBarBackgroundColor": "#d81e06",
+		"backgroundColor": "#fff",
+		"enablePullDownRefresh":false
+	},
+	"tabBar": {
+	    "color": "#2c2c2c",
+	    "selectedColor": "#d81e06",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/IPTV/index",
+	        "iconPath": "static/tabbar/iptv.png",
+	        // "selectedIconPath": "static/icon/shouye.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/TV/TV",
+	        "iconPath": "static/tabbar/TV.png",
+	        
+	        "text": "分类"
+	    }, {
+	        "pagePath": "pages/movie/movie",
+	        "iconPath": "static/tabbar/movie.png",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/my/my",
+	        "iconPath": "static/tabbar/my.png",
+	        "text": "我"
+	    }]
+	}
+}

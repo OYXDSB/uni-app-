@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "支付页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

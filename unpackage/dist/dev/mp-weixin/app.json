@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/index",
+    "pages/goods/goods",
+    "pages/cart/cart",
+    "pages/auth/login",
+    "pages/auth/register",
+    "pages/center/baseInfo",
+    "pages/goods/goods-detail/goods-detail",
+    "pages/center/collectGoods",
+    "pages/center/order",
+    "pages/center/address",
+    "pages/center/addAddress",
+    "pages/center/uploadAddress",
+    "pages/cart/close",
+    "pages/cart/addAddress",
+    "pages/cart/pay/pay",
+    "pages/cart/tiaoz/tiaoz",
+    "pages/houtai/Hlogin/Hlogin",
+    "pages/houtai/index/index",
+    "pages/houtai/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "吉吉国王",
+    "navigationBarBackgroundColor": "#2979ff",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#2979ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "iconPath": "static/icon/goods.png",
+        "selectedIconPath": "static/icon/goods-select.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/icon/profile.png",
+        "selectedIconPath": "static/icon/profile-select.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

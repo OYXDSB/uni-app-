@@ -1,0 +1,86 @@
+
+page {
+	background: #fff;
+}
+.position-group {
+	width: 100%;
+	height: auto;
+}
+/* 一级 */
+.pronames_one {
+	width: 100%;
+	height: auto;
+}
+.pronames-one-label {
+	width: 100%;
+	height: 110rpx;
+	line-height: 110rpx;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 0px 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px #eaeaea solid;
+}
+.pronames-one-label text {
+	font-size: 15px;
+	color: #2ebbfe;
+}
+/* 二级 */
+.pronames_two {
+	width: 100%;
+	height: auto;
+	transition: all 0.5s;
+}
+.pronames-two-label {
+	width: 100%;
+	height: 110rpx;
+	line-height: 110rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0px 3%;
+	border-bottom: 1px #eee solid;
+}
+.pronames-two-label text {
+	font-size: 15px;
+	color: #333;
+}
+/* 三级 */
+.pronames_three {
+	width: 100%;
+	height: auto;
+}
+.pronames_three-label {
+	width: 97%;
+	margin-left: 3%;
+	height: 100rpx;
+	line-height: 100rpx;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px #f1f1f1 solid;
+	align-items: center;
+}
+.pronames_three-label text {
+	width: 90%;
+	font-size: 15px;
+	color: #868686;
+}
+/* 展开收起效果 start */
+.oneshow{}
+.oneshow .pronames_two{ display: block;
+}
+.onehide{}
+.onehide .pronames_two{ display: none;
+}
+/* 展开收起效果 end */
+.twoshow{}
+.twoshow .pronames_three{ display: block;
+}
+.twohide{}
+.twohide .pronames_three{ display: none;
+}
+
